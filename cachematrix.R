@@ -1,5 +1,5 @@
-## This function creates a special "matrix" object that can cache its inverse.
-## Sample is the matrix object that user will submit on the console
+## The function will creates a special "matrix" object that can cache its inverse.
+## The sample is the matrix object that user will submit on the console.
 makeCacheMatrix <- function(sample = matrix()) {
   invsample <- NULL
   set <- function(x) {
